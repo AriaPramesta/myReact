@@ -34,8 +34,8 @@ function App() {
       <section className="bg-zinc-900 flex flex-col items-center p-10">
         <h1 className="text-4xl my-10">Calculator</h1>
         <div className="flex items-center">
-          <div className="bg-[url('/public/calculator.png')] bg-cover bg-center w-96 h-[450px] rounded-xl z-10"></div>
-          <div className="bg-[url('/public/calc-code.png')] bg-cover bg-center w-[800px] h-96 rounded-xl -ml-3"></div>
+          <div className="bg-[url('/calculator.png')] bg-cover bg-center w-96 h-[450px] rounded-xl z-10"></div>
+          <div className="bg-[url('/calc-code.png')] bg-cover bg-center w-[800px] h-96 rounded-xl -ml-3"></div>
         </div>
         <a
           href="/calculator"
