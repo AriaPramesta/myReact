@@ -4,7 +4,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 
 import App from "./App";
-import { Calculator } from "./pages/calculator/calculator";
+import { Calculator } from "./pages/calculator/calculator.jsx";
 
 const router = createBrowserRouter([
   {
