@@ -12,7 +12,7 @@ function App() {
   });
 
   return (
-    <div className="bg-zinc-800">
+    <div className="bg-zinc-800 text-white">
       <Navbar />
       <motion.div
         className="fixed top-16 left-0 right-0 h-2 bg-sky-500 "
@@ -39,6 +39,20 @@ function App() {
         </div>
         <a
           href="/calculator"
+          className="bg-sky-500 text-zinc-800 p-3 rounded-lg font-semibold hover:font-bold my-10"
+        >
+          Go to the page {">"}
+        </a>
+      </section>
+
+      <section className="bg-zinc-900 flex flex-col items-center p-10">
+        <h1 className="text-4xl my-10">Counter</h1>
+        <div className="flex items-center flex-row-reverse">
+          <div className="bg-[url('/counter.png')] bg-cover bg-center w-96 h-96 rounded-xl z-10"></div>
+          <div className="bg-[url('/count-code.png')] bg-cover bg-center w-[700px] h-80 rounded-xl -mr-3"></div>
+        </div>
+        <a
+          href="/counter"
           className="bg-sky-500 text-zinc-800 p-3 rounded-lg font-semibold hover:font-bold my-10"
         >
           Go to the page {">"}

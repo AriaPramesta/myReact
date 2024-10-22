@@ -59,7 +59,7 @@ export function Calculator() {
   };
 
   return (
-    <>
+    <div className="text-white">
       <Navbar />
       <div className="bg-zinc-800 h-screen p-32">
         <div className="flex flex-col items-center ">
@@ -171,6 +171,6 @@ export function Calculator() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }

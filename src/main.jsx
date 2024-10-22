@@ -5,6 +5,7 @@ import "./index.css";
 
 import App from "./App";
 import { Calculator } from "./pages/calculator/calculator.jsx";
+import { Counter } from "./pages/counter/counter.jsx";
 
 const router = createBrowserRouter([
   {
@@ -14,6 +15,10 @@ const router = createBrowserRouter([
   {
     path: "/calculator",
     element: <Calculator />,
+  },
+  {
+    path: "/counter",
+    element: <Counter />,
   },
 ]);
 
