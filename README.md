@@ -5,6 +5,7 @@ This is a project where I made some things using react. This project aims as an 
 ## Projects
 
 - Calculator
+- Counter
 
 ## Technologies Used
 
