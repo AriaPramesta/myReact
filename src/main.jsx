@@ -6,6 +6,7 @@ import "./index.css";
 import App from "./App";
 import { Calculator } from "./pages/calculator/calculator.jsx";
 import { Counter } from "./pages/counter/counter.jsx";
+import { TicTacToe } from "./pages/tic-tac-toe/tic-tac-toe.jsx";
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
   {
     path: "/counter",
     element: <Counter />,
+  },
+  {
+    path: "/tic-tac-toe",
+    element: <TicTacToe />,
   },
 ]);
 
